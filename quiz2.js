@@ -32,5 +32,19 @@ function login(reqUsername,reqPassword){
     }
 }
 
+function register(regUsername,regPassword,regName,regEmail){
+    dbUsers.push( //add the element into array dbUsers
+        {
+            username : regUsername,
+            password : regPassword,
+            name : regName,
+            email : regEmail
+        }
+    )
+}
+
 console.log(login("Khoo","112233")) //try to login
-console.log(login("UTeM","112233")) //try to login
+console.log(login("UTeM","1UTeM@PPPK"))
+
+register("UTeM","1UTeM@PPPK","FKEKK","fkekk@utem.edu.my")
+console.log(login("UTeM","1UTeM@PPPK"))
