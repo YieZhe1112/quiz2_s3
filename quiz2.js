@@ -44,7 +44,7 @@ function register(regUsername,regPassword,regName,regEmail){
 }
 
 console.log(login("Khoo","112233")) //try to login
-console.log(login("UTeM","1UTeM@PPPK"))
+console.log(login("FKEKK","123456"))
 
 register("UTeM","1UTeM@PPPK","FKEKK","fkekk@utem.edu.my")
 console.log(login("UTeM","1UTeM@PPPK"))
